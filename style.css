@@ -448,3 +448,23 @@
  }
 
  /* End of Section 4 */
+
+ .scroll-up-btn {
+     width: 5rem;
+     height: 5rem;
+     background-color: rgba(50, 231, 255, .8);
+     border-radius: 50%;
+     position: fixed;
+     bottom: 5rem;
+     right: 5rem;
+     font-size: 1.5rem;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: background-color .5s;
+ }
+
+ .scroll-up-btn:hover {
+     background-color: rgba(50, 231, 255, 1);
+ }
