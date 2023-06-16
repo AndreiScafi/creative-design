@@ -284,6 +284,11 @@
      padding: .5rem;
      cursor: pointer;
      z-index: 50;
+     transition: transform 0.5s;
+ }
+
+ .change.story-btn {
+     transform: rotate(405deg)
  }
 
  .story-btn-line {
@@ -305,6 +310,14 @@
      align-items: center;
      padding: 2rem;
      transform: scale(0);
+     transform-origin: top right;
+     border-radius: 50rem 0 50rem 50rem;
+     transition: all.5s;
+ }
+
+ .change.story {
+     transform: scale(1);
+     border-radius: 0;
  }
 
  .story-heading {
