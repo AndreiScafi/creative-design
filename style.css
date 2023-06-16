@@ -16,7 +16,8 @@
      font-size: 62%;
  }
 
- body {
+ .container {
+     width: 100%;
      overflow-x: hidden;
  }
 
